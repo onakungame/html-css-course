@@ -1,0 +1,190 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tahoma-font {
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.arial-font-title {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.arial-font-sub {
+    font-family: Arial;
+    font-size: 13px;
+    margin-bottom: 30px;
+    color: red;
+    font-style: italic;
+}
+
+.verdana-font-title {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.verdana-font-sub {
+    font-family: Verdana;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 15px;
+}
+
+.verdana-font-desc {
+    font-family: Verdana;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 230px;
+}
+
+.verdana-button {
+    font-family: Verdana;
+    background-color: rgb(0, 180, 51);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.another-arial-title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.another-arial-sub {
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.another-arial-link-text {
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(0, 61, 112);
+    margin-bottom: 30px;
+}
+
+.challenge-one-head {
+    font-family: Arial;
+    font-size: 11px;
+    color: rgb(255, 140, 0);
+    text-align: center;
+    margin-bottom: 5px;
+}    
+
+.challenge-one-sub-title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.challenge-one-title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.challenge-one-price {
+    font-family: Arial;
+    font-size: 13px;
+    color: rgb(59, 58, 58);
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.challenge-one-buy {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.span-challenge-one-buy {
+    background-color: rgb(0, 113, 227);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.challenge-two-head {
+    font-family: Arial;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.span-challenge-two-head {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.challenge-two-discount {
+    font-family: Arial;
+    font-size: 13px;
+    color: rgb(1, 191, 26);
+    margin-bottom: 3px;
+}
+
+.challenge-two-after-discount {
+    font-family: Arial;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.span-challenge-two-after-discount {
+    color: rgb(188, 0, 0);
+}
+
+.challenge-three-first-line {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.firstspan-chthree {
+    font-weight: lighter;
+    color: rgb(109, 109, 109);
+}
+
+.challenge-three-second-line {
+    font-family: Arial;
+    font-size: 15px;
+    width: 500px;
+    margin-bottom: 12px;
+}
+
+.challenge-three-third-line {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.span-challenge-three-third-line {
+    color: rgb(0, 113, 227);
+}

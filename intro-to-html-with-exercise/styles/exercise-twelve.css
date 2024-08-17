@@ -1,0 +1,229 @@
+body {
+  font-family: Montserrat, Arial;
+}
+
+p {
+  font-family: Montserrat, Arial;
+  margin: 0;
+}
+
+.first-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.first-flex-first-box {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.first-flex-second-box {
+  width: 75px;
+  background-color: lightpink;
+}
+
+.second-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.second-flex-first-box {
+  width: 50px;
+  background-color: lightblue;
+}
+
+.second-flex-second-box {
+  flex: 1;
+  background-color: lightpink;
+}
+
+.second-flex-third-box {
+  width: 75px;
+  background-color: lightblue;
+}
+
+.third-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.third-flex-first-box {
+  width: 50px;
+  background-color: lightpink;
+}
+
+.third-flex-second-box {
+  width: 50px;
+  background-color: lightpink;
+}
+
+.third-flex-third-box {
+  width: 50px;
+  background-color: lightpink;
+}
+
+.third-flex-fourth-box {
+  width: 50px;
+  background-color: lightpink;
+}
+
+.fourth-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.fourth-flex-first-box {
+  background-color: lightpink;
+}
+
+.fourth-flex-second-box {
+  background-color: lightpink;
+}
+
+.fifth-container {
+  width: 300px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: grey;
+  margin-bottom: 30px;
+}
+
+.fifth-flex-first-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.left-item {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.right-item {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(0, 145, 255);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 15px;
+}
+
+.sixth-container {
+  background-color: rgb(130, 0, 251);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  margin-bottom: 30px;
+}
+
+.sixth-left-item {
+  width: 45px;
+}
+
+.home {
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.sixth-middle-item {
+  width: 100%;
+  max-width: 450px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.search-bar {
+  width: 100%;
+  height: 27px;
+  padding-left: 12px;
+  border-radius: 30px;
+  border: none;
+}
+
+.sixth-right-item {
+  width: auto;
+}
+
+.download-button {
+  padding: 7px 13px;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.seventh-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  margin-bottom: 15px;
+}
+
+.image-profile-container {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+}
+
+.to-follow-container {
+  flex: 1;
+}
+
+.to-follow-name {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.to-follow-initial {
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+.to-follow-status {
+  font-size: 11px;
+}
+
+.button-to-follow {
+  width: auto;
+}
+
+.button-follow {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: rgb(0, 115, 255);
+}

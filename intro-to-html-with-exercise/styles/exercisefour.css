@@ -1,0 +1,88 @@
+.pagination-button-back{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 4;
+    cursor: pointer;
+}
+
+.pagination-button-next{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.page{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.threed-click-button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    vertical-align: top;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.threed-click-button:active{
+    box-shadow: none;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.strech-hover-button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    vertical-align: top;
+    cursor: pointer;
+    transition: padding 1s;
+    margin-right: 20px;
+}
+
+.strech-hover-button:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.margin-padding-button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    vertical-align: top;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    transition: padding 0.3s, margin 0.3s;
+}
+
+.margin-padding-button:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
+}

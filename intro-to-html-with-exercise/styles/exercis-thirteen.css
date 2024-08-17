@@ -1,0 +1,217 @@
+p {
+  margin: 0;
+}
+
+
+/* 13.A */
+.first-ex {
+  display: flex;
+  margin-bottom: 30px;
+  height: 50px;
+}
+
+.first-ex-first-container {
+  background-color: lightpink;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-ex-text {
+  color: white;
+  background-color: black;
+}
+
+.first-ex-second-container {
+  background-color: lightblue;
+  display: flex;
+  width: 200px;
+}
+
+/* 13.B */
+.second-ex {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.second-ex-first-container {
+  background-color: lightpink;
+  display: flex;
+  width: 100px;
+}
+
+.second-ex-second-container {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.div-for-row-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-two {
+  background-color: black;
+  color: white;
+}
+
+/* 13.C & D */
+.third-ex-main-container {
+  font-family: Arial;
+  width: 300px;
+  box-shadow: 1px 2px 10px rgba(0, 0 ,0, 0.15);
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-bottom: 15px;
+}
+
+.inbox-stats {
+  font-size: 10px;
+  color: rgb(71, 71, 71);
+}
+
+.main-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.third-ex-header {
+  margin-bottom: 13px;
+}
+
+.third-ex-user-profile {
+  margin-right: 7px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.message-desc {
+  flex: 1;
+}
+
+
+.sender-and-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sender {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.time {
+  color: rgb(85, 85, 85);
+  font-size: 11px;
+}
+
+.subject {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.isi {
+  color: rgb(85, 85, 85);
+  font-size: 12px;
+}
+
+/* 13.F */
+.fourth-ex-container {
+  font-family: Arial;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth-ex-profile-container {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.fourth-ex-profile-image {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+
+.fourth-ex-user-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3px;
+}
+
+.fourth-ex-username-text {
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.fourth-ex-at-name-text {
+  font-size: 14px;
+  color: rgb(37, 37, 37);
+}
+
+.fourth-ex-tweet-text {
+  font-size: 15px;
+}
+
+.fourth-ex-link-container {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: rgb(145, 145, 145);
+  overflow: hidden;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.fourth-ex-link-preview {
+  background-color: rgb(219, 219, 219);
+  width: 130px;
+  height: 80px;
+}
+
+.fourth-ex-link-stat {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fourth-ex-link-source {
+  font-size: 14px;
+  color: rgb(35, 35, 35);
+  margin-bottom: 4px;
+}
+
+
+.fourth-ex-link-desc {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+

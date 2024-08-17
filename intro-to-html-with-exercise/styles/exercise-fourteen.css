@@ -1,0 +1,230 @@
+body {
+  height: 3000px;
+  margin: 0;
+}
+
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
+.position-fixed-one {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+}
+
+.position-fixed-two {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  background-color: green;
+  color: white;
+}
+
+.position-fixed-three {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
+
+.position-fixed-four-overlay {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.position-fixed-four-modal {
+  position: fixed;
+  background-color: white;
+  width: 250px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.position-fixed-four-modal-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.position-fixed-four-modal-isi {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.position-fixed-four-modal-button {
+  border-radius: 3px;
+}
+
+/* FACEBOOK */
+
+.position-fixed-five {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 40px
+}
+
+.position-fixed-five-user {
+  display: flex;
+  align-items: center;
+}
+
+.position-fixed-five-user-image {
+  margin-right: 10px;
+}
+
+.position-fixed-five-user-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.position-fixed-five-user-name-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.position-fixed-five-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.position-fixed-five-buttons-add-friend {
+  margin-right: 10px;
+}
+
+.button-add-friend {
+  background-color: rgb(0, 89, 255);
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+}
+
+.button-message {
+  background-color: rgb(212, 212, 212);
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+}
+
+
+/* DISCORD */
+
+.position-fixed-six-friend-list-sidebar {
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 55px;
+}
+
+.position-fixed-six-friend-one {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.friend-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.position-fixed-six-info-sidebar {
+  background-color: rgb(87, 87, 87);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 55px;
+  width: 130px;
+}
+
+.position-fixed-six-for-margin {
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.position-fixed-six-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+
+
+.position-fixed-six-info-text {
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.position-fixed-six-info-plus-text {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(195, 195, 195);
+}
+
+.position-fixed-six-new-videos,
+.position-fixed-six-updates,
+.position-fixed-six-faq {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.new-videos-text,
+.updates-text,
+.faq-text {
+  color: rgb(195, 195, 195);
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.tagar-text {
+  color: rgb(195, 195, 195);
+  font-size: 12px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}

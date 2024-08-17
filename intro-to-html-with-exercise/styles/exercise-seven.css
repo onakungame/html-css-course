@@ -1,0 +1,106 @@
+p {
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.image-one {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search-bar-one {
+    width: 130px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    border: solid;
+    border-color: rgb(167, 167, 167);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.search-bar-two {
+    font-size: 16px;
+    background-color: #fff;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.linkedin-text {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.search-bar-three {
+    font-size: 16px;
+    background-color: #fff;
+    width: 340px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.linkedin-sub {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.linkedin-button {
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    width: 360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.twitter-profile {
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.twitter-tweet {
+    font-family: Arial;
+    color: rgb(38, 37, 37);
+    border: none;
+    vertical-align: middle;
+}
+
+.tweet-button {
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}

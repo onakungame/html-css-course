@@ -1,0 +1,20 @@
+p {
+    font-family: "Montserrat";
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.text-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-sub {
+    font-size: 14px;
+}
+
+.span-text-sub {
+    text-decoration: underline;
+}
